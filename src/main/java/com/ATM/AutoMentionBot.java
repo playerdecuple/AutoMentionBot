@@ -1,4 +1,4 @@
-package com.PSPAsshole;
+package com.ATM;
 
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
@@ -13,7 +13,7 @@ public class AutoMentionBot {
 
     public static void main(String[] args) throws LoginException, InterruptedException {
 
-        String token = "YOUR_TOKEN";
+        String token = "NzcxNzQ5OTQwMzQ2ODgwMDIw.X5wqJA._q64D0F-BmunkoZs8veTB_kbrlo";
 
         JDABuilder jdaBuilder = JDABuilder.createDefault(token)
                 .setChunkingFilter(ChunkingFilter.ALL)

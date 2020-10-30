@@ -1,4 +1,4 @@
-package com.PSPAsshole;
+package com.ATM;
 
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.User;
