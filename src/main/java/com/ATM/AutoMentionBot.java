@@ -13,7 +13,7 @@ public class AutoMentionBot {
 
     public static void main(String[] args) throws LoginException, InterruptedException {
 
-        String token = "NzcxNzQ5OTQwMzQ2ODgwMDIw.X5wqJA._q64D0F-BmunkoZs8veTB_kbrlo";
+        String token = "INPUT_YOUR_TOKEN_HERE";
 
         JDABuilder jdaBuilder = JDABuilder.createDefault(token)
                 .setChunkingFilter(ChunkingFilter.ALL)
